@@ -1,0 +1,33 @@
+@import "responsive";
+@import "fonts";
+@import "header";
+@import "footer";
+@import "lanzamientos";
+@import "musica";
+@import "contacto";
+$red:#ff0000;
+$white:#ffff;
+$black:#0000;
+*{
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0px;
+    font-weight: 400;
+    line-height: 1.5 ;
+}
+#fotoPrincipal{
+    padding: 1rem 0rem;
+    justify-content: center;
+}
+.fotoPrincipal{
+    justify-self: center;
+}
+img{
+    flex-wrap: wrap;
+}
+main{
+    padding: 1.5rem .8rem .8rem .8rem;
+}
+.body{
+    background-color:black;
+}
