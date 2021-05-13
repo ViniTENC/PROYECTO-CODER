@@ -31,7 +31,7 @@
 
 #titulo {
   margin-left: 0.61rem;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   text-decoration: none;
   color: #ffff;
   font-family: 'Libre Franklin', sans-serif; }
@@ -44,7 +44,7 @@ p {
 
 h3 {
   color: #ffff;
-  font-size: 1.3rem; }
+  font-size: 1rem; }
   h3 a {
     color: #FF7545;
     text-decoration: none; }
