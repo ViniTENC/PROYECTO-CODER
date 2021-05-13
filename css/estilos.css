@@ -52,7 +52,8 @@ h3 {
 
 .copyright {
   font-size: .6rem;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 header {
   background-color: #1d1d1d;
