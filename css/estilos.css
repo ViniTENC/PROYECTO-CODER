@@ -16,11 +16,11 @@
 
 @media only screen and (min-width: 1024px) {
   html {
-    font-size: 24px; } }
+    font-size: 22px; } }
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 26px; } }
+    font-size: 24px; } }
 
 @font-face {
   font-family: 'flexslider-icon';
@@ -31,7 +31,7 @@
 
 #titulo {
   margin-left: 0.61rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-decoration: none;
   color: #ffff;
   font-family: 'Libre Franklin', sans-serif; }
@@ -40,14 +40,19 @@ h2 {
   color: #ffff; }
 
 p {
-  color: #FF7545; }
+  color: #FF7545;
+  font-size: 1rem; }
 
 h3 {
   color: #ffff;
-  font-size: 1rem; }
+  font-size: 1.2rem; }
   h3 a {
     color: #FF7545;
     text-decoration: none; }
+
+.copyright {
+  font-size: .6rem;
+  color: white; }
 
 header {
   background-color: #1d1d1d;
@@ -80,8 +85,8 @@ footer {
   right: 0px;
   margin-bottom: 0px;
   height: 150px;
-  z-index: -1;
-  margin-top: 0px; }
+  margin-top: 0px;
+  position: sticky; }
 
 .footerUno {
   display: flex;
@@ -133,7 +138,7 @@ h4 {
 
 #plataformas {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: baseline; }
 
@@ -198,7 +203,7 @@ img {
   flex-wrap: wrap; }
 
 main {
-  padding: 1.5rem .8rem .8rem .8rem; }
+  padding: 2rem .8rem .8rem .8rem; }
 
 .body {
   background-color: black; }

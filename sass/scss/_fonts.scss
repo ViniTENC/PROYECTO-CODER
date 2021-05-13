@@ -12,7 +12,7 @@ $soundcloud: #FF7545;
 }
 #titulo{
     margin-left: 0.61rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     text-decoration: none;
     color: $white;
     font-family: 'Libre Franklin', sans-serif;
@@ -22,12 +22,17 @@ h2{
 }
 p{
     color: $soundcloud;
+    font-size: 1rem;
 }
 h3{
     color: $white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     a{
     color: $soundcloud;
     text-decoration: none;
     }
+}
+.copyright{
+    font-size: .6rem;
+    color: white;
 }
