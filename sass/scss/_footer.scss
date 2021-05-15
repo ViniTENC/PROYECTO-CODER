@@ -7,7 +7,6 @@ footer{
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
-    height: 150px;
     margin-top: 0px;
     position: sticky;
 }
@@ -33,4 +32,16 @@ footer{
 .transc:hover{
     width: 300px;
     font-size: 24px;
+}
+.icono-uno{
+    transition: all 1s;
+}
+.icono-dos{
+    transition: all 1s;
+}
+.icono-uno:hover{
+    transform: translateY(-12px);
+}
+.icono-dos:hover{
+    transform: translateY(-12px);
 }
