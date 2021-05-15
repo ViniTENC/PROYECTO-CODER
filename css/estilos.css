@@ -1,26 +1,26 @@
 @media only screen and (min-width: 320px) {
   html {
-    font-size: 15px; } }
+    font-size: 14px; } }
 
 @media only screen and (min-width: 480px) {
   html {
-    font-size: 16px; } }
+    font-size: 15px; } }
 
 @media only screen and (min-width: 600px) {
   html {
-    font-size: 18px; } }
+    font-size: 16px; } }
 
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 19px; } }
+    font-size: 17px; } }
 
 @media only screen and (min-width: 1024px) {
   html {
-    font-size: 22px; } }
+    font-size: 20px; } }
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 24px; } }
+    font-size: 22px; } }
 
 @font-face {
   font-family: 'flexslider-icon';
@@ -31,7 +31,7 @@
 
 #titulo {
   margin-left: 0.61rem;
-  font-size: 1.75rem;
+  font-size: 1.65rem;
   text-decoration: none;
   color: #ffff;
   font-family: 'Libre Franklin', sans-serif; }
@@ -41,20 +41,25 @@ h2 {
 
 p {
   color: #FF7545;
-  font-size: 1rem; }
+  font-size: .8rem; }
 
 h3 {
   color: #ffff;
-  font-size: 1.2rem; }
+  font-size: 1.1rem; }
   h3 a {
     color: #FF7545;
     text-decoration: none; }
 
 .copyright {
-  font-size: .6rem;
+  font-size: .5rem;
   color: white;
   text-align: center;
   margin-top: .3rem; }
+
+h4 {
+  color: #ffff;
+  font-size: .9rem;
+  text-align: right; }
 
 header {
   background-color: #1d1d1d;
@@ -104,11 +109,6 @@ footer {
 
 .footerUno__misRedes a {
   margin-left: 0.2rem; }
-
-h4 {
-  color: #ffff;
-  font-size: 1rem;
-  text-align: right; }
 
 .transc {
   width: 200px;
