@@ -17,3 +17,7 @@ input, textarea{
     border: 2px solid $black;
     border-radius: 4px;
 }
+::placeholder{
+    font-size: .88rem;
+    color: black;
+}
