@@ -16,20 +16,32 @@ $soundcloud: #FF7545;
     text-decoration: none;
     color: $white;
     font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
 }
 h2{
     color:$white;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
 }
 p{
     color: $soundcloud;
     font-size: .9rem;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
 }
 h3{
     color: $white;
     font-size: 1.1rem;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
     a{
     color: $soundcloud;
     text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
     }
 }
 .copyright{
@@ -37,9 +49,25 @@ h3{
     color: white;
     text-align: center;
     margin-top: .3rem;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
 }
 h4{
     color:  $white;
     font-size: .9rem;
     text-align: right;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    a{
+        color: $soundcloud;
+        text-decoration: none;
+        font-family: 'Libre Franklin', sans-serif;
+        }
+}
+span{
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
 }
