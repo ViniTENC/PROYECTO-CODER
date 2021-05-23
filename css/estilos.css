@@ -34,32 +34,59 @@
   font-size: 1.65rem;
   text-decoration: none;
   color: #ffff;
-  font-family: 'Libre Franklin', sans-serif; }
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
 
 h2 {
-  color: #ffff; }
+  color: #ffff;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
 
 p {
   color: #FF7545;
-  font-size: .9rem; }
+  font-size: .9rem;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
 
 h3 {
   color: #ffff;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
   h3 a {
     color: #FF7545;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif; }
 
 .copyright {
   font-size: .5rem;
   color: white;
   text-align: center;
-  margin-top: .3rem; }
+  margin-top: .3rem;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
 
 h4 {
   color: #ffff;
   font-size: .9rem;
-  text-align: right; }
+  text-align: right;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
+  h4 a {
+    color: #FF7545;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif; }
+
+span {
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
 
 header {
   background-color: #1d1d1d;
@@ -148,38 +175,98 @@ footer {
   justify-content: center;
   align-content: center; }
 
-#plataformas {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: baseline; }
+#musica-main {
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  #musica-main .musica-main__texto {
+    display: flex;
+    flex-direction: column; }
+  #musica-main .musica-main__plataformas {
+    padding: 1rem 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end; }
+    #musica-main .musica-main__plataformas .musica-main__plataformas--soundcloud {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 1rem; }
 
-table {
-  padding: 0px 3rem; }
-  table tr td {
-    border: 1px solid;
-    padding: 5px;
-    margin: 20px;
-    color: #ffff;
+.track {
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+  .track .track__img {
+    height: auto;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    max-width: 100%;
+    min-height: 281px;
+    display: block;
+    width: 15rem;
+    height: 15rem; }
+  .track .track__texto {
+    position: absolute;
+    background-color: #393939;
+    display: block;
+    padding: 40px;
+    box-sizing: border-box;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity .1s .3s,-webkit-transform .4s;
+    transition: opacity .1s .3s,-webkit-transform .4s;
+    transition: transform .4s,opacity .1s .3s;
+    transition: transform .4s,opacity .1s .3s,-webkit-transform .4s;
     text-align: center; }
-  table tr th {
-    border: 1px solid #ffff;
-    background-color: #ff0000;
-    padding: 5px;
-    text-align: center; }
+    .track .track__texto p {
+      color: #ffff;
+      text-align: center;
+      text-transform: uppercase; }
+    .track .track__texto span {
+      color: #FF7545; }
+    .track .track__texto .link__icon {
+      pointer-events: all;
+      color: #00A3D9;
+      text-align: center;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      vertical-align: baseline;
+      display: inline-block;
+      font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-size: 26px;
+      transform: translate3d(0, 4px, 0);
+      transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out; }
 
-#tabla {
-  border-collapse: separate; }
+.track:hover .track__img {
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px); }
 
-.center__musica {
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
-  .center__musica h3 {
-    text-align: center; }
+.track:hover .track__texto {
+  -webkit-transform: translateY(0);
+  transform: translateY(0); }
 
-li {
-  list-style-type: none; }
+.link .link__icon:hover {
+  -webkit-transform: translate3d(6px, 4px, 0);
+  transform: translate3d(6px, 4px, 0); }
+
+.link__icon::before {
+  content: '\f301';
+  color: #FF7545; }
 
 .contacto {
   display: flex;
