@@ -48,8 +48,9 @@ p {
   color: #FF7545;
   font-size: .9rem;
   font-family: 'Libre Franklin', sans-serif;
-  letter-spacing: 1.2px;
-  line-height: 25px; }
+  letter-spacing: .81px;
+  line-height: 25px;
+  margin-bottom: 26px; }
 
 h3 {
   color: #ffff;
@@ -277,16 +278,48 @@ footer {
   flex-shrink: 1;
   padding-right: 2rem; }
 
-label {
-  color: #ffff; }
-
-input, textarea {
-  border: 2px solid #0000;
-  border-radius: 4px; }
+.nombre, .email, textarea {
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #888;
+  padding: 10px 6px;
+  margin-bottom: 40px; }
 
 ::placeholder {
   font-size: .88rem;
-  color: black; }
+  color: #888; }
+
+.nombre {
+  float: left;
+  width: 270px; }
+
+.email {
+  float: right;
+  width: 270px; }
+
+textarea {
+  min-width: 100%;
+  max-width: 100%; }
+
+.boton {
+  float: right;
+  background: none;
+  color: #888;
+  border: 1px solid  #888;
+  padding: 12px 40px;
+  border-radius: 8px;
+  transition: 0,4s linear;
+  cursor: pointer; }
+
+.boton:hover {
+  background: #303030;
+  color: #fff; }
+
+@media only screen and (max-width: 1200px) {
+  .nombre, .email {
+    width: 100%; } }
 
 * {
   padding: 0;
