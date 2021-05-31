@@ -20,6 +20,10 @@ $veintepx: 20px;
             align-items: center;
             margin-top: 1rem;
         }
+        .musica-main__plataformas--beatport{
+            width: 230px;
+            height: 60px;
+        }
     }
 }
 .track{
@@ -62,7 +66,7 @@ $veintepx: 20px;
             text-transform: uppercase;
         }
         span{
-            color: $soundcloud;
+            color: #95d703;
         }
         .link__icon{
             pointer-events: all;
@@ -101,5 +105,5 @@ $veintepx: 20px;
 }
 .link__icon::before{
     content: '\f301';
-    color: $soundcloud;
+    color: #95d703;
 }

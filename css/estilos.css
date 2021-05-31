@@ -192,6 +192,9 @@ footer {
       flex-direction: row;
       align-items: center;
       margin-top: 1rem; }
+    #musica-main .musica-main__plataformas .musica-main__plataformas--beatport {
+      width: 230px;
+      height: 60px; }
 
 .track {
   margin: 10px;
@@ -231,7 +234,7 @@ footer {
       text-align: center;
       text-transform: uppercase; }
     .track .track__texto span {
-      color: #FF7545; }
+      color: #95d703; }
     .track .track__texto .link__icon {
       pointer-events: all;
       color: #00A3D9;
@@ -267,7 +270,7 @@ footer {
 
 .link__icon::before {
   content: '\f301';
-  color: #FF7545; }
+  color: #95d703; }
 
 .contacto {
   display: flex;
@@ -288,16 +291,16 @@ footer {
   margin-bottom: 40px; }
 
 ::placeholder {
-  font-size: .88rem;
+  font-size: .86rem;
   color: #888; }
 
 .nombre {
   float: left;
-  width: 270px; }
+  width: 265px; }
 
 .email {
   float: right;
-  width: 270px; }
+  width: 265px; }
 
 textarea {
   min-width: 100%;
