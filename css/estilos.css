@@ -1,18 +1,18 @@
 @media only screen and (min-width: 320px) {
   html {
-    font-size: 14px; } }
+    font-size: 15px; } }
 
 @media only screen and (min-width: 480px) {
   html {
-    font-size: 15px; } }
+    font-size: 16px; } }
 
 @media only screen and (min-width: 600px) {
   html {
-    font-size: 16px; } }
+    font-size: 17px; } }
 
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 17px; } }
+    font-size: 18px; } }
 
 @media only screen and (min-width: 1024px) {
   html {
@@ -209,8 +209,7 @@ footer {
     max-width: 100%;
     min-height: 281px;
     display: block;
-    width: 15rem;
-    height: 15rem; }
+    width: 15rem; }
   .track .track__texto {
     position: absolute;
     background-color: #393939;
@@ -271,6 +270,10 @@ footer {
 .link__icon::before {
   content: '\f301';
   color: #95d703; }
+
+@media only screen and (max-width: 513px) {
+  #ancho-foto {
+    width: 20rem; } }
 
 .contacto {
   display: flex;

@@ -40,7 +40,6 @@ $veintepx: 20px;
         min-height: 281px;
         display: block;
         width: 15rem;
-        height: 15rem;
     }
     .track__texto{
         position: absolute;
@@ -106,4 +105,9 @@ $veintepx: 20px;
 .link__icon::before{
     content: '\f301';
     color: #95d703;
+}
+@media only screen and (max-width: 513px){
+    #ancho-foto{
+        width: 20rem;
+    }
 }
