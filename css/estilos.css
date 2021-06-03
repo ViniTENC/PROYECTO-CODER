@@ -176,6 +176,52 @@ footer {
   justify-content: center;
   align-content: center; }
 
+@media only screen and (min-width: 509px) {
+  .coverflow {
+    height: 460px; }
+    .coverflow .coverflow__image {
+      width: 400px;
+      height: 400px; }
+    .coverflow .prev-arrow, .coverflow .next-arrow {
+      padding: 1.5rem 2rem;
+      font-size: 3rem; } }
+
+@media only screen and (max-width: 509px) {
+  .coverflow {
+    height: 368px; }
+    .coverflow .coverflow__image {
+      width: 320px;
+      height: 320px; }
+    .coverflow .prev-arrow, .coverflow .next-arrow {
+      padding: 1.2rem 1.6rem;
+      font-size: 2.4rem; }
+    .coverflow iframe {
+      margin: 0px 40px; } }
+
+@media only screen and (max-width: 390px) {
+  .coverflow {
+    height: 322px; }
+    .coverflow .coverflow__image {
+      width: 280px;
+      height: 280px; }
+    .coverflow .prev-arrow, .coverflow .next-arrow {
+      padding: 1.05rem 1.4rem;
+      font-size: 2.1rem; }
+    .coverflow iframe {
+      margin: 0px 60px; } }
+
+@media only screen and (max-width: 355px) {
+  .coverflow {
+    height: 276px; }
+    .coverflow .coverflow__image {
+      width: 240px;
+      height: 240px; }
+    .coverflow .prev-arrow, .coverflow .next-arrow {
+      padding: .9rem 1.2rem;
+      font-size: 1.8rem; }
+    .coverflow iframe {
+      margin: 0px 80px; } }
+
 #musica-main {
   justify-content: space-between;
   flex-wrap: wrap; }
